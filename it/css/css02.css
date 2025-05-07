@@ -1,0 +1,230 @@
+
+/* Old Browsers Handle HTML5 */
+header, section, footer, aside, nav, main, article, figure {
+	display: block; 
+}
+		
+			 	 
+body {
+	background: #000000;
+	color: #84c754;
+	font-family: "Courier New", Courier, monospace;
+	text-align: left;
+	line-height: 1.5em;
+	font-size: 1.5em;
+} 
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	background: transparent;
+	color: #84c754;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 500;
+}
+
+p {
+	background: transparent;
+	color: #84c754;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.jumbotron { 
+	text-align: center;
+	background-color: #000000;  
+	color: #84c754; 
+	margin-bottom: 3em;
+}  
+				
+.jumbotron p {
+	margin-top: 1em;
+		
+}
+
+/* unvisited link */
+a:link {
+	color: #84c754;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+	color: #84c754;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+	color: #84c754;
+	background-color: transparent;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+/* selected link */
+a:active {
+	color: #84c754;   
+	background-color: transparent;   
+	text-decoration: underline;
+	font-weight: bold;
+}			
+
+
+
+ul {
+	list-style-type: disc;
+}
+
+
+.btn-default, a.btn-default  { 
+	margin: 1em 0em 1em 0em;
+}
+
+.btn-default, .btn-default:active, .btn-default:visited, a.btn-default, a.btn-default:active, a.btn-default:visited { 
+	background-color: #000000 !important;  
+	color: #84c754 !important;
+	border-style: solid;
+	border-width: 1px;  
+	border-color: #84c754 !important;
+	font-weight: bold !important;    
+	outline-color: #84c754 !important; 
+	text-decoration: none;
+}
+
+.btn-default:hover, a.btn-default:hover {  
+	background-color: #000000 !important;  
+	color: #84c754 !important;
+	border-style: solid;
+	border-width: 1px; 			
+	border-color: #84c754 !important;
+	outline-color: #84c754 !important; 
+	text-decoration: none;
+}	   
+		
+.btn-default:active:focus, a.btn-default:active:focus {  
+	background-color: #0000000 !important;
+	color: #84c754 !important;
+	border-style: solid;
+	border-width: 1px; 			
+	border-color: #84c754 !important;  
+	outline-color: #84c754 !important; 
+	text-decoration: none;
+} 	 
+
+
+.btn-info, a.btn-info  { 
+	margin: 1em 0em 1em 0em;
+}
+
+.btn-info, .btn-info:active, .btn-info:visited, a.btn-info, a.btn-info:active, a.btn-info:visited { 
+	background-color: #000000 !important;  
+	color: #84c754 !important;
+	border-style: solid;
+	border-width: 1px;  
+	border-color: #84c754 !important;
+	font-weight: bold !important;    
+	outline-color: #84c754 !important;
+	text-decoration: none;	
+}
+
+.btn-info:hover, a.btn-info:hover {  
+	background-color: #000000 !important;  
+	color: #84c754 !important;
+	border-style: solid;
+	border-width: 1px; 			
+	border-color: #84c754 !important;
+	outline-color: #84c754 !important;
+	text-decoration: none;
+}	   
+		
+.btn-info:active:focus, a.btn-info:active:focus {  
+	background-color: #0000000 !important;
+	color: #84c754 !important;
+	border-style: solid;
+	border-width: 1px; 			
+	border-color: #84c754 !important;  
+	outline-color: #84c754 !important;
+	text-decoration: none;	
+} 	
+
+blockquote {
+   /* padding: 1em 2em;*/
+   /* margin: 0 0 2em; */
+    font-size: 1em;
+	font-style: italic;
+    border-left: 0.5em solid #84c754; 
+     /* display: block; */
+    margin-top: 2em; 
+    margin-bottom: 1em; 
+     /* margin-left: 40px; */
+     /* margin-right: 40px;	 */
+}
+
+
+/* COLUMN PADDING */		
+/* LEFT COL PAD ON MD & LG SCREENS */	
+				
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+	.LeftColPad {
+		margin: 0em 0em 0em 0em;
+		padding: 0em 0em 0em 0em;
+	}
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+	.LeftColPad {
+		margin: 0em 0em 0em 0em;
+		padding: 0em 0em 0em 0em;
+	}
+}
+  
+/* md */
+@media screen and (min-width: 992px) {
+	.LeftColPad {
+		margin: 0em 0em 0em 0em;
+		padding: 0em 2em 0em 0em;
+	}
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+	.LeftColPad {
+		margin: 0em 0em 0em 0em;
+		padding: 0em 3em 0em 0em;
+	}
+}		
+
+.section {
+	margin-top: 3em;
+	margin-top: 3em;
+}		
+
+.logo {
+	padding-top: 1.5em;
+	color: #84c754;
+	text-align: center;
+	text-shadow: 6px 6px 1px #000000;   /* horizontal shadow, vertical shadow, color */
+}    					
+
+.buttons {
+	text-align: center;
+}
+
+pre {
+	color: #9cd276;
+	background-color: #000000;
+	margin-top: 1.25em;
+    margin-bottom: 1.25em;
+	border-style: solid;
+	border-width: 1px; 			
+	border-color: #84c754;    
+	
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 3em;
+}
+			

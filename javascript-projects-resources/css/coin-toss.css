@@ -1,0 +1,437 @@
+body {
+	background: #f9f9f9;
+	color: #5cb245;
+	text-align: center;
+	font-size: 100%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+} 
+
+.jumbotron { 
+	background-color: #daffd0;  
+	border-bottom-style: solid;
+	border-bottom-color: #5cb245;
+	border-bottom-width: 0.1em;
+	padding-top: 6em; 
+	padding-bottom: 7em;
+	margin-bottom: 7em; 
+}  
+
+
+.jumbotron h1 {
+	margin-top: 0em;  
+	margin-bottom: 0em;  
+}
+
+	/* xs < 768 */
+	@media screen and (max-width: 767px) {
+	.jumbotron h1 {
+			font-size: 5.2em;
+		}
+	}
+
+	/* sm */ 
+	@media screen and (min-width: 768px) {
+		.jumbotron h1 {
+			font-size: 5.6em; 
+		}
+	}
+
+	/* md */
+	@media screen and (min-width: 992px) {
+		.jumbotron h1 {
+			font-size: 5.8em;
+		}
+	}
+ 
+	/* lg */
+	@media screen and (min-width: 1200px) {
+		.jumbotron h1 {
+			font-size: 6em;
+		}
+	}	
+
+	
+	
+	
+
+
+	/* xs < 768 */
+	@media screen and (max-width: 767px) {
+		#flipCoinButton {
+			margin-bottom: 2.5em;
+		}
+	}	
+
+	/* sm */ 
+	@media screen and (min-width: 768px) {
+		#flipCoinButton {
+			margin-bottom: 2.5em;
+		}
+	}	
+
+	/* md */
+	@media screen and (min-width: 992px) {
+		#flipCoinButton {
+			margin-top: 0.5em;
+			margin-bottom: 1.75em;
+		}
+	}	
+ 
+	/* lg */
+	@media screen and (min-width: 1200px) {
+		#flipCoinButton {
+			margin-top: 0.5em;
+			margin-bottom: 1.75em;
+		}
+	}	
+
+
+	
+	/* xs < 768 */
+	@media screen and (max-width: 767px) {
+		#resetButton01 {
+			margin-top: 2.5em;
+			margin-bottom: 2.5em;
+		}
+	}	
+
+	/* sm */ 
+	@media screen and (min-width: 768px) {
+		#resetButton01 {
+			margin-top: 2.5em;
+			margin-bottom: 2.5em;
+		}
+	}	
+
+	/* md */
+	@media screen and (min-width: 992px) {
+		#resetButton01 {
+			margin-top: 1.75em;
+			margin-bottom: 0em;
+		}
+	}	
+ 
+	/* lg */
+	@media screen and (min-width: 1200px) {
+		#resetButton01 {
+			margin-top: 1.75em;
+			margin-bottom: 0em;
+		}
+	}		
+	
+	
+	
+	/* xs < 768 */ 
+	@media screen and (max-width: 767px) {
+		#coinImage {
+			max-width: 40%;
+			margin-bottom: 4.5em;
+		}
+	} 
+
+	/* sm */
+	@media screen and (min-width: 768px) {
+		#coinImage {
+			max-width: 40%;
+			margin-bottom: 4.5em;
+		}
+	}
+
+	/* md */
+	@media screen and (min-width: 992px) {
+		#coinImage {
+			max-width: 72%;
+		}
+	}
+
+	/* lg */
+	@media screen and (min-width: 1200px) {
+		#coinImage {
+			max-width: 60%;
+		}
+	}	
+
+
+
+
+th {
+    text-align: center;
+}
+
+
+table {
+	font-size: 1.5em;
+}
+
+
+/* color of non colored cells */
+table {
+    background-color: transparent;
+}
+
+.table {
+    background-color: transparent;
+	margin-bottom: 0em;
+} 
+
+	/* md */
+	@media screen and (min-width: 992px) {
+		.table {
+			margin-top: 3.5em;
+		}
+	}
+
+	/* lg */
+	@media screen and (min-width: 1200px) {
+		.table {
+			margin-top: 3.5em;
+		}
+	}	
+
+
+
+/* color of header cells */
+.table-bordered>tbody>tr>th {
+	background-color: #daffd0;
+}
+
+/* table borders */
+.table-bordered, .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #5cb245; 
+}
+
+.table-hover>tbody>tr:hover {
+    background-color: #daffd0;
+}
+
+
+
+.chart-container {
+	margin: auto;
+}
+
+
+	/* xs < 768 */ 
+	@media screen and (max-width: 767px) {
+		#chart-container-01 {
+			width: 300px;
+			height: 300px;
+			margin-top: 0em;
+		}
+	} 
+
+	/* sm */
+	@media screen and (min-width: 768px) { 
+		#chart-container-01  {
+			width: 500px;
+			height: 500px;
+			margin-top: 0em;
+		}
+	}
+
+
+
+
+
+	/* xs < 768 */ 
+	@media screen and (max-width: 767px) {
+		#chart-container-02 {
+			width: 300px;
+			height: 300px;
+			margin-top: 0em;
+		}
+	} 
+
+	/* sm */
+	@media screen and (min-width: 768px) {
+		#chart-container-02  {
+			width: 500px;
+			height: 500px;
+			margin-top: 0em;
+		}
+	}
+
+
+
+	/* xs < 768 */ 
+	@media screen and (max-width: 767px) {
+		#secondTable {
+
+			margin-top: 5em;
+		}
+	} 
+
+	/* sm */
+	@media screen and (min-width: 768px) {
+		#secondTable  {
+
+			margin-top: 5em;
+		}
+	}
+
+
+	
+	
+	/* xs < 768 */
+	@media screen and (max-width: 767px) {
+		#resetButton02 {
+			margin-top: 2.5em;
+
+		}
+	}	
+
+	/* sm */ 
+	@media screen and (min-width: 768px) {
+		#resetButton02 {
+			margin-top: 2.5em;
+		}
+	}	
+
+	/* md */
+	@media screen and (min-width: 992px) {
+		#resetButton02 {
+			margin-top: 5em;
+		}
+	}	
+ 
+	/* lg */
+	@media screen and (min-width: 1200px) {
+		#resetButton02 {
+			margin-top: 5em;
+		}
+	}		
+		
+
+		
+
+footer {
+	text-align: center;
+	margin-bottom: 0em;
+	padding-top: 2.5em;
+	padding-bottom: 1.5em;
+	background-color: #daffd0;  
+	border-top-style: solid;
+	border-top-color: #5cb245;
+	border-top-width: 0.1em;
+	font-size: 1em;
+}
+
+		
+	/* xs < 768 */
+	@media screen and (max-width: 767px) {
+		footer {
+			margin-top: 6em;
+
+		}
+	}	
+
+	/* sm */ 
+	@media screen and (min-width: 768px) {
+		footer {
+			margin-top: 5em;
+		}
+	}	
+
+	/* md */
+	@media screen and (min-width: 992px) {
+		footer {
+			margin-top: 10em;
+		}
+	}	
+ 
+	/* lg */
+	@media screen and (min-width: 1200px) {
+		footer {
+			margin-top: 10em;
+		}
+	}			
+		
+		
+		
+/* unvisited link */
+a:link {
+	color: #5cb245;
+	background-color: transparent;
+}
+
+/* visited link */
+a:visited {
+	color: #5cb245;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+	color: #5cb245;
+	background-color: transparent;
+}
+
+/* selected link */
+a:active {
+	color: #5cb245;   
+	background-color: transparent;   
+	text-decoration: none; 
+}		
+
+.btn-info, .btn-info:active, .btn-info:visited, a.btn-info, a.btn-info:active, a.btn-info:visited { 
+	background-color: #daffd0 !important;  
+	color: #5cb245 !important;
+	border-style: solid;
+	border-width: 1px;  
+	border-color: #5cb245 !important;
+	font-weight: bold !important;
+	outline: 1px #000000;
+}
+
+.btn-info:hover, a.btn-info:hover {  
+	background-color: #c1ffb1 !important;  
+	color: #5cb245 !important;
+	border-style: solid;
+	border-width: 1px; 			
+	border-color: #5cb245 !important;
+	outline: 1px #000000;	
+}	   
+		
+.btn-info:active:focus, a.btn-info:active:focus {  
+	background-color: #b5ffa1 !important;
+	color: #5cb245 !important;
+	border-style: solid;
+	border-width: 1px; 			
+	border-color: #5cb245 !important;	
+} 	
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 1px #ffffff;
+    outline-offset: -2px;
+}
+
+
+
+
+
+
+
+
+#headsOrTails {
+	margin-top: 0em;
+	margin-bottom:0em;
+	font-size: 3em;
+}
+	
+
+	
+.headsColor {
+	color: #FF6384;
+}
+
+.tailsColor {
+	color: #6384FF;
+}
+
+.otherColor {
+	color: #5cb245;
+}
+
+
+

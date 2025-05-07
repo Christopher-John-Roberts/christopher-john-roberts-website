@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+input[type=checkbox] { 
+	display: none;
+}
+
+div#toss {
+	width: fit-content;
+	margin: 0 auto;
+	padding: 1em;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+	border: 2px solid black;
+}
+
+div#coin {
+	width: 100vw;
+	margin: 0 auto;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	background-image: url(/tails.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	transition-property: transform;
+	transition-timing-function: cubic-bezier(0, 1.31, 1, 1);
+	transition-duration: 3s;
+	transform-style: preserve-3d;
+	backface-visibility: visible;
+}
+
+input[type=checkbox]:checked ~ div#coin {
+	transform: rotateY(1080deg);
+}
+
+img.heads {
+	backface-visibility: hidden;
+}

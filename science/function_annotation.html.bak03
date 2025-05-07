@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html> 
+
+	<head> 
+
+		<link href="../css/web1.css" rel="stylesheet"/>
+		<link href="../css/image_container.css" rel="stylesheet"/>
+		<title>Christopher John Roberts</title> 
+			<meta name="description" content="Bioinformatics research project at The Institute of Biological, Environmental and Rural Sciences IBERS. Building the Brachypodium – Poaceae Bridge: Anchoring Brachypodium Genomes to Rice Pseudomolecules by Chris Roberts at IBS Institute of Biological Sciences and IGER Institute of Biological, Environmental and Rural Sciences at Aberystwyth University" />
+			<meta property="og:site_name" content="Christopher John Roberts" />
+			<meta property="og:title" content="Genomics" />
+			<meta property="og:description" content="Bioinformatics research project at The Institute of Biological, Environmental and Rural Sciences IBERS. Building the Brachypodium – Poaceae Bridge: Anchoring Brachypodium Genomes to Rice Pseudomolecules by Chris Roberts at IBS Institute of Biological Sciences and IGER Institute of Biological, Environmental and Rural Sciences at Aberystwyth University" />
+			<meta property="og:url" content="http://christopher-john-roberts.appspot.com/content/scientific_skills/genomics.html" />
+			<meta property="og:image" content="http://christopher-john-roberts.appspot.com/content/images/christopher_john_roberts.jpg" />
+			<meta property="og:type" content="website" />
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54015400-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+	
+
+<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1//style.css" media="screen" />
+	<script type="text/javascript" src="engine1//jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+
+
+<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1//style.css" media="screen" />
+	<script type="text/javascript" src="engine1//jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+</head> 
+
+	<body> 	
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=279799882222264&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>		
+	
+		<div id="logos"> 
+			<img src="../images/liverpool_university_logo.gif" onclick="window.open('http://www.liv.ac.uk/')"> 
+			<img src="../images/aberystwyth_university_logo.gif" onclick="window.open('https://www.facebook.com/christopher.john.roberts')">
+
+		</div>
+
+		<div id="socialicons"> 
+		
+			<img src="../images/linkedin.png" onclick="window.open('https://www.linkedin.com/pub/christopher-john-roberts/32/483/99a')">
+			<img src="../images/facebook.png" onclick="window.open('https://www.facebook.com/christopher.john.roberts')">
+			<img src="../images/twitter.png" onclick="window.open('https://twitter.com/contact_roberts')">
+
+		</div>
+
+		<div id="title">
+
+				<h1><a href="../../index.html">Christopher John Roberts</a></h1>	
+		</div>
+
+		<div id="navbar"> 
+	
+  			<ul> 
+				<li><a href="../../index.html">HOME</a></li> 
+				<li><a href="../about.html">ABOUT</a></li>
+				<li><a href="../scientific_skills.html">SCIENTIFIC SKILLS</a></li> 
+				<li><a href="../it_skills.html">IT SKILLS</a></li> 
+				<li><a href="../business_skills.html">BUSINESS SKILLS</a></li> 
+				<li><a href="../photography.html">PHOTOGRAPHY</a></li>
+				<li><a href="../awards.html">AWARDS</a></li>
+				<li><a href="../cv.html">CV</a></li> 
+				<li><a href="../contact.html">CONTACT</a></li>
+  			</ul> 
+		</div> 
+
+		<div id="header">
+
+		</div>
+
+		<div id="title">
+
+			<h2><a href="../scientific_skills.html">Scientific Skills</a></h2>	
+
+		</div>
+
+		<div id="navbar2"> 
+	
+  			<ul> 
+				<li><a href="skills.html">SKILLS</a></li>				
+				<li><a href="bsc_genetics_and_human_health.html">BSC GENETICS & HUMAN HEALTH</a></li>
+				<li><a href="mres_post_genomic_science.html">MRES POST GENOMIC SCIENCE</a></li>
+				<li><a href="proteomics.html">PROTEOMICS</a></li>
+				<li><a href="genomics.html">GENOMICS</a></li>
+				
+  			</ul> 
+		</div> 
+
+		
+
+
+
+<div id="content">
+			<h2>Function Annotation</h2>	
+			
+			
+
+
+		</div>
+
+		<div id="buttonsfb">
+
+			<div class="fb-like" data-href="http://christopher-john-roberts.appspot.com/content/scientific_skills/genomics.html" data-layout="button" data-action="like" data-show-faces="true" data-share="true">
+			
+			</div>
+
+		</div>
+
+		<div id="buttonsother">
+
+			<script src="//platform.linkedin.com/in.js">
+  				lang: en_US
+			</script>
+			<script type="IN/Share"></script>
+
+			<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-count="none">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+			<div class="g-plus" data-action="share" data-annotation="none"></div>
+
+			<div class="g-plusone" data-size="medium" data-annotation="none"></div>
+
+		</div>
+		<div id="footer">
+
+			Copyright &copy; 2015 <a href="../../index.html">Christopher John Roberts</a> | <a href="../sitemap.html">Sitemap</a>  
+		</div>
+
+	</body> 
+
+</html>

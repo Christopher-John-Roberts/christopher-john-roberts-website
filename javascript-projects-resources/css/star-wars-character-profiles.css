@@ -1,0 +1,362 @@
+.hiddenElement {
+	display: none;
+}
+ 
+.shownElement {
+	display: block;
+}
+
+body {
+	background-image: url(/javascript-projects-resources/imgs/starwars_images/star-wars-background.jpg);
+	background-color: #000000;
+	color: #FFFF66;
+	line-height: 1.5em;
+	font-size: 1.5em;
+}	
+
+.p, p {
+	font-size: 1em;
+}	
+
+.h1, .h2, h1, h2 {
+	font-size: 3em;
+}
+
+h2 {
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+	/* xs < 768 */
+	@media screen and (max-width: 767px) {
+		.h2  {
+			padding-bottom: 0em;
+			padding-top: 0em;
+		} 
+	}
+
+	/* sm */
+	@media screen and (min-width: 768px)  {
+		.h2  {
+			padding-bottom: 0em;
+			padding-top: 0em;
+		} 
+	}
+
+	/* md */
+	@media screen and (min-width: 992px) {
+		.h2  {
+			padding-bottom: 1em;
+			padding-top: 1em;
+		} 
+	}
+
+	/* lg */
+	@media screen and (min-width: 1200px) {
+		.h2  {
+			padding-bottom: 1em;
+			padding-top: 1em;
+		} 
+	}
+	
+h2.name  {
+	text-align: center;
+}
+
+	/* xs < 768 */
+	@media screen and (max-width: 767px) {
+		h2.homeWorld  {
+			text-align: center;
+		} 
+	}
+
+	/* sm */
+	@media screen and (min-width: 768px) {
+		h2.homeWorld {
+			text-align: left;
+		}
+	}
+	  
+	/* xs < 768 */
+	@media screen and (max-width: 767px) {
+		h2.species  {
+			text-align: center;
+		} 
+	}
+
+	/* sm */
+	@media screen and (min-width: 768px) {
+		h2.species {
+			text-align: left;
+		}
+	}
+	
+.h3, h3 {
+	font-size: 2em;
+}	
+	  
+#filmsTitle	{
+	padding-bottom: 1.5em;	
+	padding-top: 1.5em;	
+}
+
+.filmIcon {
+	font-size: 2em;	
+}
+
+.swg-ep1, .swg-ep2, .swg-ep3, .swg-ep4, .swg-ep5, .swg-ep6, .swg-sw-alt {
+	height: 0em; 
+} 
+
+#filmsTitle, h3, .filmIcon {
+    text-align: center;
+}
+
+.jumbotron { 
+	background: transparent; 
+	text-align: center;
+	color: #4BD5EE;
+}  
+
+.jumbotron p {
+	font-size: 1em;	
+} 
+
+.jumbotron .titleText {
+	padding-bottom: 1.5em;
+	color: #FFFF66;
+}
+
+	/* xs < 768 */
+	@media screen and (max-width: 767px) {
+		.jumbotron .titleText {
+			font-size: 2em;
+			padding-bottom: 1em
+		}
+	}
+
+	/* sm */
+	@media screen and (min-width: 768px) {
+		.jumbotron .titleText {
+			font-size: 3em;
+		}
+	}
+	  
+	/* md */
+	@media screen and (min-width: 992px) {
+		.jumbotron .titleText {
+			font-size: 3em;
+		}
+	}
+
+	/* lg */
+	@media screen and (min-width: 1200px) {
+		.jumbotron .titleText {
+			font-size: 3em;
+		}
+	}
+	
+.jumbotron .h1 {
+	display: inline;
+	font-size: inherit;
+	box-sizing: border-box;
+}
+
+.titleIcon{
+	color: #FFFF66;
+}
+
+	/* xs < 768 */
+	@media screen and (max-width: 767px) {
+		.titleIcon {
+			font-size: 2.5em;
+		}
+	}
+
+	/* sm */
+	@media screen and (min-width: 768px) {
+		.titleIcon {
+			font-size: 5em;
+		}
+	}
+	  
+	/* md */
+	@media screen and (min-width: 992px) {
+		.titleIcon {
+			font-size: 5em;
+		}
+	}
+
+	/* lg */
+	@media screen and (min-width: 1200px) {
+		.titleIcon {
+			font-size: 5em;
+		}
+	}
+
+.swg-starwars {
+    width: 1.28571429em;
+	height: 0em; 
+    text-align: center;
+	
+} 
+
+.form-control {
+	background-color: #000000;
+    width: 100%;
+	padding: 1em 2em;
+	font-size: 0.9em;			
+	line-height: 1.42857143;
+	border: 5px solid #4BD5EE;
+	border-radius: 4px;
+	color: #FFFF66;
+} 
+
+option:hover {
+	color: #4BD5EE !important;
+}
+
+/* unvisited link */
+a:link {
+	color: #4BD5EE;
+	background-color: transparent;
+}
+
+/* visited link */
+a:visited {
+	color: #4BD5EE;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+	color: #4BD5EE;
+	background-color: transparent;
+}
+
+/* selected link */
+a:active {
+	color: #4BD5EE;  
+	background-color: transparent;   
+	text-decoration: none; 
+}		
+
+.buttonArea {
+	text-align: center;	
+}
+
+#characterButton {
+	margin-top: 2em;
+	margin-bottom: 0em;
+	font-size: 2em;
+	padding-left: 0.85em;
+	padding-right: 0.85em;
+}
+
+	/* xs < 768 */
+	@media screen and (max-width: 767px) {
+		#characterButtonWookiee {
+			margin-top: 2em;
+			margin-bottom: 0em;
+			font-size: 2em;
+		}
+	}
+
+	/* sm */
+	@media screen and (min-width: 768px) {
+		#characterButtonWookiee {
+			margin-top: 2em;
+			margin-bottom: 0em;
+			font-size: 2em;
+		}
+	}
+	  
+	/* md */
+	@media screen and (min-width: 992px) {
+		#characterButtonWookiee {
+			margin-top: 3em;
+			margin-bottom: 0em;
+			font-size: 2em;
+		}
+	}
+
+	/* lg */
+	@media screen and (min-width: 1200px) {
+		#characterButtonWookiee {
+			margin-top: 3em;
+			margin-bottom: 0em;
+			font-size: 2em;
+		}
+	}
+
+.btn-info, .btn-info:active, .btn-info:visited, a.btn-info, a.btn-info:active, a.btn-info:visited { 
+	background-color: #FFFF66 !important;  
+	color: #000000 !important;
+	border-style: solid;
+	border-width: 5px;  
+	border-color: #4BD5EE !important;
+	font-weight: bold !important;
+	outline: 1px #000000;
+}
+
+.btn-info:hover, a.btn-info:hover {  
+	background-color: #e5e5e5 !important;  
+	color: #000000 !important;
+	border-style: solid;
+	border-width: 5px; 			
+	border-color: #4BD5EE !important;
+	outline: 1px #000000;	
+}	   
+		
+.btn-info:active:focus, a.btn-info:active:focus {  
+	background-color: #e5e5e5 !important;
+	color: #000000 !important;
+	border-style: solid;
+	border-width: 5px; 			
+	border-color: #4BD5EE !important;	
+} 	
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 1px #ffffff;
+    outline-offset: -2px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 5em;
+	margin-bottom: 1em;
+}
+
+.profileImageBorder { 
+	border-style: solid;
+	border-width: 3px; 			
+	border-color: #FFFF66;
+	padding: 1em;
+}  
+
+.planetImageBorder { 
+	border-style: solid;
+	border-width: 3px; 			
+	border-color: #FFFF66;
+	padding: 1em;
+}  
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 0px solid #000000;
+}
+
+.table-responsive {
+    border: 0px solid #000000;
+}
+
+strong { 
+	color: #4BD5EE;
+}
+
+.blue {
+	color: #4BD5EE;	
+}

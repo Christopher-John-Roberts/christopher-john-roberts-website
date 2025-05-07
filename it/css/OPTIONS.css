@@ -1,0 +1,468 @@
+/*
+
+text, for w3c complient css if you define the "color" properly you must also define the "background-color"
+
+
+ 
+
+MARGIN & PADDING
+				margin: 0em 0em 0em 0em;
+				padding: 0em 0em 0em 0em;
+			
+
+BORDERS
+				border-style 	dotted dashed solid double groove ridge inset outset none hidden
+				border-width	2px 10px 4px 20px;        or medium
+				border-color: 	red;
+				border-radius: 	5px;    (rounded corners)
+
+LINKS
+
+				The four links states are:
+						
+				a:link - a normal, unvisited link
+						
+				a:visited - a link the user has visited
+						
+				a:hover - a link when the user mouses over it
+						
+				a:active - a link the moment it is clicked
+
+
+
+				/* unvisited link *//*   <--- remove 
+				a:link {
+					color: red;
+				}
+
+				/* visited link *//*   <--- remove 
+				a:visited {
+					color: green;
+				}
+
+				/* mouse over link *//*   <--- remove 
+				a:hover {
+					color: hotpink;
+				}
+
+				/* selected link *//*   <--- remove 
+				a:active {
+					color: blue;
+				}
+
+				When setting the style for several link states, there are some order rules:
+						* 
+				a:hover MUST come after a:link and a:visited
+						* 
+				a:active MUST come after a:hover
+
+
+					
+					
+look up tables css
+
+sort pre code
+
+
+https://getbootstrap.com/docs/3.3/components/#navbar   
+https://getbootstrap.com/docs/3.3/css/#forms
+https://getbootstrap.com/docs/3.3/css/#images
+https://getbootstrap.com/docs/3.3/components/#glyphicons
+			
+*/
+
+
+
+/* Old Browsers Handle HTML5 */
+header, section, footer, aside, nav, main, article, figure {
+	display: block; 
+}
+		
+/* Jumbotron	https://getbootstrap.com/docs/3.3/components/#jumbotron		*/
+.jumbotron { 
+	text-align: center;
+	background-color: #e5e5e5;  
+	color: #000000; 
+	/*	padding: 5em 2em 2em 2em;	*/
+	/*	margin: 0em 0em 0em 0em;	*/
+}  
+				
+/*	
+.jumbotron p {
+	
+}
+*/
+				 	 
+body {
+	background: #ffffff;
+	color: #323232;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	text-align: left;
+	line-height: 1.5em;
+	font-size: 1.5em;
+} 
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	background: transparent;
+	color: #000000;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-weight: 500;
+    /*	line-height: 1.5em;		*/
+	/*	word-spacing: 0.1em;	*/
+	/*	text-shadow: 2px 2px 10px #999999;   horizontal shadow, vertical shadow, color 		*/
+}
+
+/*
+.h1, .h2, .h3, h1, h2, h3 {
+	margin-top: 1.22em;
+    margin-bottom: 0.66em;
+}
+
+.h1, h1 {
+	font-size: 3em;
+}
+
+.h2, h2 {
+	font-size: 2.2em;
+}
+
+.h3, h3 {
+	font-size: 2em;
+}
+
+.h4, .h5, .h6, h4, h5, h6 {
+	margin-top: 1.22em;
+    margin-bottom: 0.66em;
+}
+
+.h4, .h5, .h6, h4, h5, h6 {
+	font-size: 1.6em;
+}
+*/
+
+p {
+	background: transparent;
+	color: #323232;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	/*font-size: 1.1em; */
+	/*margin-top: 0; */
+    /*margin-bottom: 0.66em; */
+	/*line-height: 1.5em; */
+	/*text-align: left; */
+	/* word-spacing: 0.1em;	*/
+	/* letter-spacing: 3px; */
+}
+
+/*
+
+strong {
+	background: transparent;
+	color: #323232;
+}
+
+
+
+
+/* LINKS */
+
+		/* unvisited link */
+		a:link {
+			color: #337ab7;
+			background-color: transparent;
+			/* font-weight: bold; */
+			/* text-decoration: none; */
+
+		}
+
+		/* visited link */
+		a:visited {
+			color: #337ab7;
+			background-color: transparent;
+			/* font-weight: bold; */
+			text-decoration: none;
+		}
+
+		/* mouse over link */
+		a:hover {
+			color: #337ab7;
+			background-color: transparent;
+			/* font-weight: bold; */
+			/* text-decoration: none;    */
+		}
+
+		/* selected link */
+		a:active {
+			color: #337ab7;   
+			background-color: transparent;   
+			/* font-weight: bold; */
+			text-decoration: none; 
+		}			
+
+/* 
+hr {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border: 0;
+    border-top: 0.08em solid #ffffff;
+}
+*/
+
+/*
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 1em;
+	font-size: 1em; 
+} */
+
+ul {
+	list-style-type: disc; /* options: disc, circle, square, none */
+/*	list-style-position: outside; /* options: outside, inside */
+/*	list-style-image: none  /* options: none, url, initial, inherit */
+}
+
+/*
+ol {
+	list-style-type: lower-alpha;  options: decimal, decimal-leading-zero, georgian, upper-roman, lower-alpha erc 
+	list-style-position: outside;  options: outside, inside 
+	list-style-image: none  options: none, url, initial, inherit 
+}
+*/
+
+
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: #333;
+    background-color: #d4d4d4;
+    border-color: #8c8c8c;
+}
+
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    background-image: none;
+}
+
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+.btn-default:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+/*		.btn-default, .btn-default:active, .btn-default:visited { 
+			background-color: #ffffff;  
+			color: #000000;
+			border-style: solid;
+			border-width: 1px;  
+			border-color: #000000;
+			font-weight: bold;
+			outline-color: #ffffff; 
+		}
+
+		.btn-default:hover {  
+			background-color: #ffffff; 
+			color: #000000;
+			border-style: solid;
+			border-width: 1px; 			
+			border-color: #000000;
+			outline-color: #ffffff;
+		}	   
+		
+		.btn-default:active:focus {  
+			background-color: #ffffff;
+			color: #000000;
+			border-style: solid;
+			border-width: 1px; 			
+			border-color: #000000;  
+			outline-color: #ffffff      
+		} 	 */
+/* .btn-lg, .btn-sm, or .btn-xs 				btn-block*/
+/*
+img {
+    vertical-align: middle;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+	vertical-align: middle;
+
+}
+
+dl {
+    margin-top: 0;
+    margin-bottom: 2em;
+	background: blue;
+    color: #323232;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: 1.1em;
+}
+
+dd, dt {
+    line-height: 1.5em;
+}
+
+*/
+
+blockquote {
+   /* padding: 1em 2em;*/
+   /* margin: 0 0 2em; */
+    font-size: 1em;
+	font-style: italic;
+    border-left: 0.5em solid #e5e5e5; 
+     /* display: block; */
+     /* margin-top: 1em; */
+    /*  margin-bottom: 1em; */
+     /* margin-left: 40px; */
+     /* margin-right: 40px;	 */
+}
+
+/*
+table {
+	background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+	width: 100%;
+	font-size: 1.1em;
+}
+
+
+
+.table {
+	
+}
+
+.table-striped {
+	
+}
+
+.table-bordered {
+	
+}
+
+.table-hover {
+	
+}
+
+.table-condensed {
+	
+}
+
+.table-responsive {
+	
+}
+
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+}
+
+
+td, th {
+    padding: 0;
+	display: table-cell
+}
+
+th {
+    font-weight: bold;
+	text-align: left;
+}
+
+
+/*
+code, kbd, pre, samp {
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+
+pre {
+	margin-top: 1.22em;
+    margin-bottom: 0.66em
+	
+}
+
+
+code {
+    padding: 2em 4em;
+    font-size: 2vw;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4em;
+	margin-top: 1.22em;
+    margin-bottom: 0.66em;
+}
+
+
+pre code {
+    padding: 2em 4em;
+    font-size: 2vw;
+    color: #c7254e;
+    white-space: pre-wrap;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+*/
+
+				
+/* COLUMN PADDING */		
+
+		/* LEFT COL PAD ON MD & LG SCREENS */	
+				
+				/* xs < 768 */
+				@media screen and (max-width: 767px) {
+					.LeftColPad {
+						margin: 0em 0em 0em 0em;
+						padding: 0em 0em 0em 0em;
+					}
+				}
+
+				/* sm */
+				@media screen and (min-width: 768px) {
+					.LeftColPad {
+						margin: 0em 0em 0em 0em;
+						padding: 0em 0em 0em 0em;
+					}
+				}
+  
+				/* md */
+				@media screen and (min-width: 992px) {
+					.LeftColPad {
+						margin: 0em 0em 0em 0em;
+						padding: 0em 2em 0em 0em;
+					}
+				}
+
+				/* lg */
+				@media screen and (min-width: 1200px) {
+					.LeftColPad {
+						margin: 0em 0em 0em 0em;
+						padding: 0em 3em 0em 0em;
+					}
+				}		
+/* HOVER IMAGE */
+
+/*		.hoverimage img 
+					{
+					opacity: 1.0;
+					filter: alpha(opacity=40); /* For IE8 and earlier */
+/*					}
+/*		.hoverimage img:hover 
+					{
+					opacity: 0.4;
+					filter: alpha(opacity=100); /* For IE8 and earlier */
+/*					}			
+
+/* Add an orange color to all icons and set the font-size */
+		.logo {
+			color: #000000;
+			text-align: center;
+			text-shadow: 6px 6px 1px #e5e5e5;   /* horizontal shadow, vertical shadow, color */
+		}    					
+
+					

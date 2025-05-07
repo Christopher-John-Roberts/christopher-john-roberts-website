@@ -1,0 +1,214 @@
+
+/* Old Browsers Handle HTML5 */
+header, section, footer, aside, nav, main, article, figure {
+	display: block; 
+}
+		
+			 	 
+body {
+	background: #ffffff;
+	color: #323232;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	text-align: left;
+	line-height: 1.5em;
+	font-size: 1.5em;
+} 
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	background: transparent;
+	color: #000000;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-weight: 500;
+}
+
+p {
+	background: transparent;
+	color: #323232;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+.jumbotron { 
+	text-align: center;
+	background-color: #e5e5e5;  
+	color: #000000; 
+	margin-bottom: 3em;
+}  
+				
+.jumbotron p {
+	margin-top: 1em;
+		
+}
+
+/* unvisited link */
+a:link {
+	color: #337ab7;
+	background-color: transparent;
+}
+
+/* visited link */
+a:visited {
+	color: #337ab7;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+	color: #337ab7;
+	background-color: transparent;
+}
+
+/* selected link */
+a:active {
+	color: #337ab7;   
+	background-color: transparent;   
+	text-decoration: none; 
+}			
+
+
+
+ul {
+	list-style-type: disc;
+}
+
+
+.btn-default, a.btn-default  { 
+	margin: 1em 0em 1em 0em;
+}
+
+.btn-default, .btn-default:active, .btn-default:visited, a.btn-default, a.btn-default:active, a.btn-default:visited { 
+	background-color: #ffffff !important;  
+	color: #000000 !important;
+	border-style: solid;
+	border-width: 1px;  
+	border-color: #000000 !important;
+	font-weight: bold !important;    
+	outline-color: ffffff !important; 
+}
+
+.btn-default:hover, a.btn-default:hover {  
+	background-color: #e5e5e5 !important;  
+	color: #000000 !important;
+	border-style: solid;
+	border-width: 1px; 			
+	border-color: #00000 !important;
+	outline-color: #ffffff !important; 
+}	   
+		
+.btn-default:active:focus, a.btn-default:active:focus {  
+	background-color: #e5e5e5 !important;
+	color: #000000 !important;
+	border-style: solid;
+	border-width: 1px; 			
+	border-color: #000000 !important;  
+	outline-color: #ffffff !important;     
+} 	 
+
+
+.btn-info, a.btn-info  { 
+	margin: 1em 0em 1em 0em;
+}
+
+.btn-info, .btn-info:active, .btn-info:visited, a.btn-info, a.btn-info:active, a.btn-info:visited { 
+	background-color: #ffffff !important;  
+	color: #000000 !important;
+	border-style: solid;
+	border-width: 1px;  
+	border-color: #000000 !important;
+	font-weight: bold !important;    
+	outline-color: ffffff !important; 
+}
+
+.btn-info:hover, a.btn-info:hover {  
+	background-color: #e5e5e5 !important;  
+	color: #000000 !important;
+	border-style: solid;
+	border-width: 1px; 			
+	border-color: #00000 !important;
+	outline-color: #ffffff !important; 
+}	   
+		
+.btn-info:active:focus, a.btn-info:active:focus {  
+	background-color: #e5e5e5 !important;
+	color: #000000 !important;
+	border-style: solid;
+	border-width: 1px; 			
+	border-color: #000000 !important;  
+	outline-color: #ffffff !important;     
+} 	
+
+blockquote {
+   /* padding: 1em 2em;*/
+   /* margin: 0 0 2em; */
+    font-size: 1em;
+	font-style: italic;
+    border-left: 0.5em solid #e5e5e5; 
+     /* display: block; */
+    margin-top: 2em; 
+    margin-bottom: 1em; 
+     /* margin-left: 40px; */
+     /* margin-right: 40px;	 */
+}
+
+
+/* COLUMN PADDING */		
+/* LEFT COL PAD ON MD & LG SCREENS */	
+				
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+	.LeftColPad {
+		margin: 0em 0em 0em 0em;
+		padding: 0em 0em 0em 0em;
+	}
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+	.LeftColPad {
+		margin: 0em 0em 0em 0em;
+		padding: 0em 0em 0em 0em;
+	}
+}
+  
+/* md */
+@media screen and (min-width: 992px) {
+	.LeftColPad {
+		margin: 0em 0em 0em 0em;
+		padding: 0em 2em 0em 0em;
+	}
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+	.LeftColPad {
+		margin: 0em 0em 0em 0em;
+		padding: 0em 3em 0em 0em;
+	}
+}		
+
+.section {
+	margin-top: 3em;
+	margin-top: 3em;
+}		
+
+.logo {
+	padding-top: 1.5em;
+	color: #000000;
+	text-align: center;
+	text-shadow: 6px 6px 1px #e5e5e5;   /* horizontal shadow, vertical shadow, color */
+}    					
+
+.buttons {
+	text-align: center;
+}
+
+pre {
+	margin-top: 1.25em;
+    margin-bottom: 1.25em;
+	
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 3em;
+}
